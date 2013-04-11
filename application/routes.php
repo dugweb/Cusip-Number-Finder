@@ -32,10 +32,13 @@
 |
 */
 
+Route::Controller('home');
+/*
 Route::get('/', function()
 {
 	return View::make('home.index');
 });
+*/
 
 /*
 |--------------------------------------------------------------------------

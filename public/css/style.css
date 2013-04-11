@@ -1,0 +1,26 @@
+/* Sass Stylesheet **** */
+body {
+  font: normal normal 18px/24px Verdana, Arial, sans-serif;
+  color: #444;
+  background: #fefefe; }
+
+.upload_form {
+  list-style: none;
+  text-indent: 0;
+  padding: 0; }
+  .upload_form li {
+    margin: 1em 0;
+    padding: 0; }
+  .upload_form input[type="submit"] {
+    font-size: 6em; }
+
+.output textarea {
+  width: 40%;
+  border: 2px solid #aaaaaa;
+  overflow: scroll; }
+
+#dropzone {
+  padding: 20px;
+  background: #eeeeee;
+  border: 3px dashed #aaaaaa;
+  text-align: center; }
