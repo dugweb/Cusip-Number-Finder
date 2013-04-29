@@ -11,14 +11,9 @@
 
 <h2>The Cusip number finder</h2>
 
-<ul class="upload_form">
-	{{ Form::open() }}
-		<li>{{ Form::label('rawText', 'Upload the text File')}}</li>
-		<li>{{ Form::file('rawText', array('id' => 'dropzone')) }}</li>
-		<li></li>
 
-	{{ Form::close() }}
-</ul>
+<div id="dropzone">Drop Files Here</div>
+
 
 <div class="output">
 

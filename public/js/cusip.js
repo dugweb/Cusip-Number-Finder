@@ -6,6 +6,7 @@ $(document).ready(function() {
 		
 
 		function handleFileSelect(event) {
+			console.log('handle file select')
 			var files = event.target.files;
 			// files is the file list
 			
@@ -41,10 +42,10 @@ $(document).ready(function() {
 
 
 		function init() {
-			document.getElementById('dropzone').addEventListener('change', handleFileSelect, false);
-			// var dropZone = document.getElementById('dropzone');
-			// dropZone.addEventListener('dragover', handleDragOver, false);
-			// dropZone.addEventListener('drop', handleFileSelect, false);
+			// document.getElementById('dropzone').addEventListener('change', handleFileSelect, false);
+			var dropZone = document.getElementById('dropzone');
+			dropZone.addEventListener('dragover', handleDragOver, false);
+			dropZone.addEventListener('drop', handleFileSelect, false);
 		}
 
 		function cusipRegex(rawText) {
